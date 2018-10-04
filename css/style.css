@@ -61,7 +61,7 @@ ul {
 	position: absolute;
     width: 100%;
     height: 15px;
-    top: 100px;
+    top: 50px;
     left: 0px;
     background: linear-gradient(135deg, rgba(0,0,0, 0) 50%, #000 50%, #000 80%, rgba(0,0,0, 0) 80%), linear-gradient(135deg, #000 25%, rgba(0,0,0, 0) 25%);
     background-size: 2em 2em;
@@ -71,6 +71,15 @@ ul {
 .promo {
 	background-image: url(../img/bg_promo.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.promo-container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 150px;
+	box-sizing: border-box;
+	text-align: center;
 }
 
 .promo-hide {
@@ -80,27 +89,37 @@ ul {
 .promo-title{
 	font-family: 'PS Sans', sans-serif ;
 	text-transform: uppercase;
+	font-size: 36px;
+	color: white;
 }
 
 .promo-subtext {
 	font-family: 'PS Sans', sans-serif;
 	font-size: 16px;
+	color: white;
+	font-weight: lighter;
 }
 
 .promo-btn {
   	font-family: 'PS Sans Bold', sans-serif;
-  	font-size: 14px;
+  	font-size: 16px;
+  	text-align: left;
   	border: 2px solid #ffcd34;
+  	margin-top: 40px;
   	padding: 10px;
   	width: 220px;
+  	display: inline-block;
+  	box-sizing: border-box;
+  	
 }
 
 .promo-btn a {
   text-decoration: none;
+  color: white;
 }
 
 .promo.warning-line::after {
-    top: 300px;
+    top: 560px;
 
 }
 
