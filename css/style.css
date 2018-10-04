@@ -23,6 +23,7 @@ body {
 	background-color: #ffcd34; 
 }
 
+
 .wrapper {
 	margin: 0 auto;
 
@@ -32,6 +33,9 @@ body {
 	max-width: 940px;
 	margin: 0 auto;
 	display: flex;
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .cols-1 {
@@ -43,6 +47,33 @@ body {
 	display: flex;
 }
 
+.header-logo {
+	position: relative;
+}
+
+.header-logo:before {
+	content: '';
+	position: absolute;
+	background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+   	width: 47px;
+    height: 36px;
+    background-position: -256px -5px;
+}
+
+.header-title {
+	font-family: 'PS Sans Bold', sans-serif;
+	font-size: 28px;
+	padding-left: 60px;
+}
+.header-title span {
+	font-family: 'PS Sans', sans-serif;
+	font-size: 28px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+
 .header-nav {
 	width: 70%;
 }
@@ -50,10 +81,16 @@ body {
 ul {
 	display: flex;
 	justify-content: space-between;
+	list-style-type: none;
+	padding-left: 0px;
 }
 
 .header-btn {
 	width: 30%;
+}
+.header-btn a {
+	text-decoration: none;
+	color: black;
 }
 
 .warning-line::after {
@@ -61,7 +98,7 @@ ul {
 	position: absolute;
     width: 100%;
     height: 15px;
-    top: 50px;
+    top: 75px;
     left: 0px;
     background: linear-gradient(135deg, rgba(0,0,0, 0) 50%, #000 50%, #000 80%, rgba(0,0,0, 0) 80%), linear-gradient(135deg, #000 25%, rgba(0,0,0, 0) 25%);
     background-size: 2em 2em;
