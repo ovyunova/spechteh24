@@ -189,13 +189,20 @@ ul {
 
 .promo.warning-line::after {
     top: 560px;
-
 }
 
+.form,
 footer {
 	background-color: #202e3b;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
+.form-title {
+	font-family: 'PS Sans', sans-serif;
+	font-size: 20px;
+	color: #ffcd34;
+}
 .__container {
 	width: 940px;
 	display: flex;
