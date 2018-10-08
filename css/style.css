@@ -35,7 +35,7 @@ body {
 	display: flex;
 	box-sizing: border-box;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 
 .cols-1 {
@@ -85,25 +85,36 @@ ul {
 	justify-content: space-between;
 	list-style-type: none;
 	padding-left: 0px;
+	margin: 0 auto;
 }
 
 .nav-item { 
 	font-family: 'PS Sans', sans-serif;
 	font-size: 14px;
+	text-align: center;
+	width: 80px;
+	padding: 10px;
+	background-color: transparent;
+}
+
+.nav-item:hover {
+	background-color: #fee301;
 }
 
 .header-btn {
-	/*width: 30%;*/
 	box-sizing: border-box;
 	width: 175px;
-	height: 48px;
+	/*height: 48px;*/
 	padding: 10px;
-	padding-top: 14px;
+	/*padding-top: 14px;*/
 
 	text-align: center;
 
 	background-color: #ffe083;
+}
 
+.header-btn:hover {
+	background-color: #fee301;
 }
 
 .header-btn a {
@@ -111,8 +122,6 @@ ul {
 	font-size: 14px;
 	text-decoration: none;
 	color: black;
-
-
 
 }
 
