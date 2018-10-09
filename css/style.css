@@ -265,7 +265,8 @@ ul {
 	padding-bottom: 25px;
 }
 
-.offer-menu {
+.offer-menu,
+.review-menu {
 	width: 25%;
 	padding-right: 40px;
 }
@@ -276,12 +277,14 @@ ul {
 	margin: 0;
 }
 
-ul.offer-list {
+ul.offer-list,
+ul.review-list {
  	display: block;
  	padding-top: 30px;
 }
 
-ul.offer-list > li {
+ul.offer-list > li,
+ul.review-list > li {
 	padding-bottom: 20px;
 }
 
@@ -295,11 +298,17 @@ ul.offer-list > li > a:hover  {
 	color: #ffcd34;
 }
 
-.offer-tab {
+.offer-tab,
+.review-customer {
 	width: 75%;
 }
 
+.offer.warning-line:after {
+    top: 1296px;
+}
+
 .form,
+.review,
 footer {
 	background-color: #202e3b;
 	padding-top: 20px;
@@ -320,6 +329,46 @@ footer {
 	width: 940px;
 	display: flex;
 	margin: 0 auto;
+}
+
+.review-title {
+	font-family: 'PS Sans', sans-serif;
+	font-size: 24px;
+	margin: 0;
+	color: #f3f3f3;
+}
+
+.review-list > li {
+	color: #9f9fa1;
+}
+
+.review-numbers {
+	font-family: 'PS Sans', sans-serif;
+	font-size: 28px;
+	color: #ffcd34;
+}
+
+.blockquote {
+	display: flex;
+	flex-wrap: wrap; 
+	padding-top: 10px;
+}
+.row {
+	display: flex;
+	padding-top: 20px;
+}
+
+.col-1 {
+	width: 30%;
+}
+
+.col-2 {
+	width: 70%;
+}
+
+.row img {
+	border-radius: 7px;
+	border: 3px solid #ffcd34;
 }
 
 .footer.__container {
